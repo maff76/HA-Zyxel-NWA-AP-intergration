@@ -1,0 +1,14 @@
+{
+  "domain": "zyxel_nwa",
+  "name": "Zyxel NWA",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/maff76/ha-zyxel-nwa",
+  "issue_tracker": "https://github.com/maff76/ha-zyxel-nwa/issues",
+  "codeowners": [
+    "@maff76"
+  ],
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": []
+}

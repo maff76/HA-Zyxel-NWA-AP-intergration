@@ -1,0 +1,42 @@
+{
+  "title": "Zyxel NWA",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Zyxel NWA",
+        "description": "Connect using the access point web interface.",
+        "data": {
+          "host": "Host",
+          "username": "Username",
+          "password": "Password"
+        },
+        "data_description": {
+          "host": "IP address or hostname of the access point.",
+          "username": "Web UI username.",
+          "password": "Web UI password."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to authenticate with or communicate with the Zyxel web interface."
+    },
+    "abort": {
+      "already_configured": "This access point is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Zyxel web credentials",
+        "data": {
+          "username": "Username",
+          "password": "Password"
+        },
+        "data_description": {
+          "username": "Web UI username.",
+          "password": "Web UI password."
+        }
+      }
+    }
+  }
+}
